@@ -25,7 +25,7 @@ enum csOptions{csNone, csStatic, csDynamic};
 enum Signer{None, Apple, AppStore, DevID, AdHoc};
 
 //architectures
-enum Architectures{ArchUnknown, ArchAppleSilicon, ArchIntel};
+enum Architectures{ArchUnknown, ArchFail1, ArchFail2, ArchFail3, ArchAppleSilicon, ArchIntel};
 
 //cs options
 #define CS_STATIC_CHECK YES
